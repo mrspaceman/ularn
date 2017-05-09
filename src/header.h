@@ -15,6 +15,7 @@
 #endif /* ITIMER */
 
 #ifdef HAVE_TERMIO_H
+#  include <term.h>
 #  include <termio.h>
 #else
 #  include <sys/ioctl.h>
